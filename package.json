@@ -1,0 +1,15 @@
+{
+  "name": "foodrush-mern",
+  "version": "1.0.0",
+  "description": "Full-stack MERN food ordering system",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "seed": "cd backend && npm run seed",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
