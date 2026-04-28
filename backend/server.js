@@ -26,9 +26,7 @@ const app = express();
 //   },
 //   credentials: true,
 // }));
-app.use(cors({
-  origin: "*"
-}));
+app.use(cors());
 
 
 app.use(express.json());
