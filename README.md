@@ -1,17 +1,29 @@
-# 🍜 FoodRush — MERN Stack Food Ordering System
+# 🍜 FoodRush — Online Food Ordering System
 
 A full-stack online food ordering application built with MongoDB, Express, React, and Node.js.
 
 ---
+## ✅ Features
 
-## 🚀 Quick Start
+- Browse and search restaurant
+- View restaurant menus and item details
+- Easily filter menus by category, from starters to desserts.
+- Add items to cart and adjust quantities
+- Place orders and view order summary
+- User authentication (signup/login) with JWT
+- Order history and status tracking
+- Responsive UI for desktop and mobile
 
-### Prerequisites
-- Node.js v18+
-- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/atlas))
-- npm or yarn
+
+## 🔗 Project Links & Documentation
+
+- **Live Demo :** [Live Link](https://food-rush-wine.vercel.app/)
+- **Live API (Backend):** [Render](https://foodrush-backend-j9rv.onrender.com)
+- **Project Report:** [View Project Report](./Project_Report.pdf)
+
 
 ---
+
 
 ## 📦 Installation
 
@@ -60,10 +72,6 @@ MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/foodapp
 npm run seed
 ```
 
-This creates:
-- 3 restaurants with 5 menu items each
-- 3 test users
-- 6 sample orders
 
 ### 5. Start the app
 
@@ -83,15 +91,7 @@ npm run start:frontend
 
 Open [http://localhost:3000](http://localhost:3000)
 
----
 
-## 🔑 Test Credentials
-
-| Name | Email | Password |
-|------|-------|----------|
-| Arjun Sharma | arjun@example.com | password123 |
-| Priya Patel | priya@example.com | password123 |
-| Rohan Mehta | rohan@example.com | password123 |
 
 ---
 
@@ -198,19 +198,7 @@ Order.find({}).populate('customer_id', 'name email').populate('restaurant_id', '
 
 ---
 
-## 🎨 Design System
 
-| Token | Value |
-|-------|-------|
-| Primary | `#FF6B35` (orange) |
-| Accent | `#FFB347` (amber) |
-| Background | `#FFFAF7` (warm cream) |
-| Font Display | Syne (headings) |
-| Font Body | DM Sans |
-| Border Radius | 10–32px |
-| Glass Effect | `backdrop-filter: blur(20px)` |
-
----
 
 ## 🔄 User Flow
 
@@ -231,4 +219,4 @@ Landing → Browse Restaurants → View Menu
 | Backend | Node.js, Express.js |
 | Database | MongoDB with Mongoose |
 | Auth | JWT + bcryptjs |
-| Styling | Pure CSS with design tokens |
+
