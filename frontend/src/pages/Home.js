@@ -54,7 +54,7 @@ const Home = () => {
               <span className="hero-highlight">We've got you</span> covered.
             </h1>
             <p className="hero-subtitle">
-              Discover restaurants, explore menus, and get your food delivered fast.
+              Discover restaurants, explore menus, and get your food delivered fast!!.
             </p>
           </div>
 

@@ -85,10 +85,21 @@
 }
 
 .hero-subtitle {
-  font-size: 18px;
-  color: var(--text-secondary);
-  max-width: 500px;
-  font-weight: 300;
+  font-family: var(--font-hero);
+  font-size: clamp(20px, 1.6vw, 26px);
+  color: #6A3D1F;
+  max-width: 720px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin: 18px auto 0;
+  padding: 20px 28px;
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 28px 70px rgba(255, 107, 53, 0.12);
+  border: 1px solid rgba(255, 107, 53, 0.18);
+  text-transform: capitalize;
 }
 
 .search-bar {
