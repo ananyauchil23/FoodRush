@@ -89,7 +89,7 @@ npm run start:backend
 npm run start:frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000)
+Open http://localhost:3000
 
 
 
